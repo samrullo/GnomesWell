@@ -40,7 +40,7 @@ public class Rope : MonoBehaviour
     }
 
     // remove all rope segments and create a new one
-    void ResetRope()
+    public void ResetRope()
     {
         foreach(GameObject ropeSegment in ropeSegments)
         {
